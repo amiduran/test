@@ -1,3 +1,7 @@
-print("i'm hungry")
+hungry <- readline(prompt = "are you hungry?")
 
-print('i am not hungry')
+if (hungry=='yes') {
+  print('eat a snack')
+} else {
+  print('get back to work')
+}
