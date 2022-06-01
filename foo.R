@@ -7,5 +7,6 @@ if (hungry=='yes') {
   sleepy <- readline(prompt = "are you sleepy?")
   if (sleepy == 'yes') {
     print('take a nap')
+    print('take the day off')
   }
 }
