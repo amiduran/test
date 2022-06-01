@@ -4,5 +4,8 @@ if (hungry=='yes') {
   print('eat a snack')
   print('eat a burger')
 } else {
-  print('get back to work')
+  sleepy <- readline(prompt = "are you sleepy?")
+  if (sleepy == 'yes') {
+    print('take a nap')
+  }
 }
